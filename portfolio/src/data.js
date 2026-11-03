@@ -7,7 +7,7 @@ export const profile = {
   github: "https://github.com/Naveen-Negi721700",
   githubUser: "Naveen-Negi721700",
   linkedin: "https://www.linkedin.com/in/naveen-negi-423429326/", // paste your LinkedIn URL to show it
-  portfolio: "", // optional second portfolio link
+  portfolio: "https://portfolio-eta-sooty-t3sbkkdmuc.vercel.app/", // optional second portfolio link
   resume: "/Naveen_negi_resume.pdf", // put the PDF in /public
 };
 
