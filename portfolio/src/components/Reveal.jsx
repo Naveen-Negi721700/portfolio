@@ -10,10 +10,14 @@ export default function Reveal({ children, className = "", delay = 0 }) {
       { threshold: 0.12 }
     );
     obs.observe(ref.current);
+    
     return () => obs.disconnect();
-  }, []);
+  }, []);         
 
-  return (
+
+
+
+  return (            
     <div ref={ref} style={{ transitionDelay: `${delay}ms` }} className={`reveal ${shown ? "in" : ""} ${className}`}>
       {children}
     </div>

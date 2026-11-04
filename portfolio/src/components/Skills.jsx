@@ -18,6 +18,7 @@ export default function Skills() {
                 {items.map((s) => (
                   <li key={s} className="rounded-full border border-pink-400/25 bg-pink-400/5 px-3 py-1.5 text-sm text-white">{s}</li>
                 ))}
+                {/* <div></div> */}
               </ul>
               <p className="mt-4 text-sm text-pink-100/55">{note}</p>
             </div>

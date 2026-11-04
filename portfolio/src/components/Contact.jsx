@@ -10,7 +10,7 @@ export default function Contact() {
     try { await navigator.clipboard.writeText(profile.email); } catch {}
     setCopied(true);
     setTimeout(() => setCopied(false), 1800);
-  };
+  };          
 
   const links = [
     ["GitHub", "@" + profile.githubUser, profile.github],

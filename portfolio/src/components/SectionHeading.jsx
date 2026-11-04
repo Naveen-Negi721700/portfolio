@@ -9,5 +9,7 @@ export default function SectionHeading({ n, label, children }) {
         {children}
       </h2>
     </div>
-  );
+  );    
+  
 }
+       

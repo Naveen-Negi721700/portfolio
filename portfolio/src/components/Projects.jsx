@@ -20,8 +20,9 @@ function ProjectCard({ p, i }) {
             <li key={l} className="rounded-xl border border-pink-400/15 bg-black/20 p-3">
               <div className="font-display text-xl text-white">{v}</div>
               <div className="text-[11px] text-pink-100/50">{l}</div>
-            </li>
-          ))}
+            </li>   
+          ))}        
+          
         </ul>
 
         <div className="mt-5 flex flex-wrap gap-2">

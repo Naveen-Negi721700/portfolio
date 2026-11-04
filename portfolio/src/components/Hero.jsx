@@ -17,7 +17,7 @@ const Badge = ({ label, value, className = "" }) => (
     <div className="mt-1 font-semibold text-white">{value}</div>
   </div>
 );
-
+          
 const Hero = () => {
   return (
     <section id="home" className="hero-bg relative pt-[72px]">
