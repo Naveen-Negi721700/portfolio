@@ -13,6 +13,8 @@ function Entry({ when, title, org, children, badge }) {
       {children}
     </div>
   );
+
+
 }
 
 export default function Experience() {

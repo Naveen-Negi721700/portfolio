@@ -10,6 +10,7 @@ export default function CommitLog() {
   const [error, setError] = useState(false);
   const [hover, setHover] = useState(null);
 
+
   useEffect(() => {
     fetch(`https://github-contributions-api.jogruber.de/v4/${profile.githubUser}?y=last`)
       .then((r) => r.json())

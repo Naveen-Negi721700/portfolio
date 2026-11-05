@@ -19,6 +19,7 @@ export default function Achievements() {
             </div>
           </Reveal>
         ))}
+        
       </div>
     </section>
   );

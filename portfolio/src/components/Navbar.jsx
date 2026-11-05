@@ -79,7 +79,9 @@ const Navbar = () => {
             Resume
           </a>
         </div>
-      )}
+      )}  
+
+      
     </header>
   );
 };
