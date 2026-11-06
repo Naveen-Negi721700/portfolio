@@ -9,6 +9,8 @@ export default function Reveal({ children, className = "", delay = 0 }) {
       ([e]) => { if (e.isIntersecting) { setShown(true); obs.disconnect(); } },
       { threshold: 0.12 }
     );
+
+    
     obs.observe(ref.current);
     
     return () => obs.disconnect();

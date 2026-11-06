@@ -50,7 +50,8 @@ export default function About() {
             ))}
           </dl>
         </Reveal>
-
+   #0d050a
+   
         <Reveal delay={100}>
           <h3 className="mb-6 font-display text-2xl text-white">Milestones</h3>
           <ol className="ml-2 space-y-6 border-l border-pink-400/25 pl-7">

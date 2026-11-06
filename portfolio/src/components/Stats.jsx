@@ -10,6 +10,9 @@ export default function Stats() {
             <div className="mt-1 text-sm text-pink-100/60">{label}</div>
           </div>
         ))}
+
+
+        
       </div>
     </section>
   );

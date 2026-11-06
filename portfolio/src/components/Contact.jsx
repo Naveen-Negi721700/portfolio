@@ -12,6 +12,8 @@ export default function Contact() {
     setTimeout(() => setCopied(false), 1800);
   };          
 
+
+  
   const links = [
     ["GitHub", "@" + profile.githubUser, profile.github],
     profile.linkedin && ["LinkedIn", "Naveen Negi", profile.linkedin],
