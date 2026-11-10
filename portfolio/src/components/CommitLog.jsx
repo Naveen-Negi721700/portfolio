@@ -11,6 +11,11 @@ export default function CommitLog() {
   const [hover, setHover] = useState(null);
 
 
+
+
+
+//  d
+
   useEffect(() => {
     fetch(`https://github-contributions-api.jogruber.de/v4/${profile.githubUser}?y=last`)
       .then((r) => r.json())
@@ -18,6 +23,7 @@ export default function CommitLog() {
       .catch(() => setError(true));
   }, []);
 
+//  add 
   const summary = useMemo(() => {
     if (!days) return null;
     let total = 0, active = 0, run = 0, best = 0, busiest = days[0];
