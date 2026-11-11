@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 // ALL your content lives here. Edit this file to update the whole site.
 
 export const profile = {
@@ -122,6 +129,8 @@ export const experience = [
     "Collaborated with team members and deployed the websites on Vercel.",
   ]],
 ];
+
+
 
 export const education = [
   ["Aug 2024 – Jul 2028", "B.Tech, Computer Science & Engineering", "Shivalik College of Engineering · Dehradun", ""],
