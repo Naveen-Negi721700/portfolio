@@ -18,7 +18,6 @@ export default function Reveal({ children, className = "", delay = 0 }) {
 
 
 
-
   return (            
     <div ref={ref} style={{ transitionDelay: `${delay}ms` }} className={`reveal ${shown ? "in" : ""} ${className}`}>
       {children}

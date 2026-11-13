@@ -47,6 +47,7 @@ export default function CommitLog() {
         {error && <p className="text-pink-100/60">Couldn't load contribution data right now.</p>}
         {!days && !error && <p className="text-pink-100/60">Loading contribution data…</p>}
         {days && (
+
           <>
             <div className="mb-6 grid grid-cols-2 gap-6 md:grid-cols-4">
               {[
