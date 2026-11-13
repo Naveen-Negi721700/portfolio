@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 // ALL your content lives here. Edit this file to update the whole site.
 
 export const profile = {
